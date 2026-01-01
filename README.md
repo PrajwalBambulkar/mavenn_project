@@ -243,6 +243,7 @@ With Nexus:
 ---
 
 # 🧱 Nexus Architecture
+<img width="605" height="401" alt="image" src="https://github.com/user-attachments/assets/25b13999-df6f-448e-90d5-d00458e25e8c" />
 
 ## Nexus Repository Manager
 Central artifact server for:
