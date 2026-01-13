@@ -124,13 +124,7 @@ Private Key: /home/ubuntu/.ssh/id_rsa
 Public Key must be added to: biddfeuat@UAT-SERVER:~/.ssh/authorized_keys
 ```
 
-#### **6\. Sendmail**
 
-```shell
-# Required for: Sending security alert emails
-sendmail -v
-# Should show version info
-```
 
 ### **Directory Structure on Jenkins Build Server**
 
