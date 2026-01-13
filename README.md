@@ -156,7 +156,7 @@ Public Key must be added to: biddfeuat@UAT-SERVER:~/.ssh/authorized_keys
                 └── next.config.ts    ← UAT environment config
 ```
 
-### **Where Repositories Are Cloned**
+
 
 #### **Repository 1: Configuration Repository (prodConf)**
 
