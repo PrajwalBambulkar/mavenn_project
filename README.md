@@ -200,7 +200,7 @@ Contains:
 
 ---
 
-## **🎯 Pipeline Parameters (Deployment Modes)**
+## ** Pipeline Parameters (Deployment Modes)**
 
 The pipeline has **3 boolean parameters** that control what gets deployed:
 
@@ -349,7 +349,7 @@ Exit Code: 0 (does not fail pipeline)
 
 ---
 
-### **Stage 3: Fetch API Server IPs**
+### **Stage 3: Fetch Server IPs**
 
 **Server:** Jenkins Build Server  
  **User:** ubuntu
@@ -376,7 +376,7 @@ aws ec2 describe-instances \
 
 ### **Stage 4: Deploy to App Servers (Sequential)**
 
-**Server:** UAT API Servers (Multiple)  
+**Server:** UAT Servers (Multiple)  
  **User:** biddbeuat  
  **Method:** SSH from Jenkins → Git pull on each server
 
@@ -790,7 +790,7 @@ Attachment: handler_trivy_report.txt
 │    Output: ${WORKSPACE}/handler_trivy_report.txt               │
 │    Exit Code: 0 (does not fail build)                          │
 │                                                                  │
-│ STAGE 3: Fetch API Server IPs                                  │
+│ STAGE 3: Fetch  Server IPs                                  │
 │ └─ AWS CLI: Get IPs of bidd-be-uat instances                   │
 │    Result: APP_SERVER_IPS = "10.0.2.10 10.0.2.11 10.0.2.12"    │
 │                                                                  │
@@ -800,7 +800,7 @@ Attachment: handler_trivy_report.txt
                      │ (No file copy - Git pull on each server)
                      ▼
 ┌─────────────────────────────────────────────────────────────────┐
-│ UAT API SERVER 1: 10.0.2.10 (biddbeuat user)                   │
+│ UAT SERVER 1: 10.0.2.10 (biddbeuat user)                   │
 ├─────────────────────────────────────────────────────────────────┤
 │                                                                  │
 │ STAGE 4: Deploy to App Servers                                 │
@@ -829,14 +829,14 @@ Attachment: handler_trivy_report.txt
                      │ Deploy to next server
                      ▼
 ┌─────────────────────────────────────────────────────────────────┐
-│ UAT API SERVER 2: 10.0.2.11 (biddbeuat user)                   │
+│ UAT SERVER 2: 10.0.2.11 (biddbeuat user)                   │
 │ (Same steps as Server 1)                                        │
 └─────────────────────────────────────────────────────────────────┘
                      │
                      │ Deploy to next server
                      ▼
 ┌─────────────────────────────────────────────────────────────────┐
-│ UAT API SERVER 3: 10.0.2.12 (biddbeuat user)                   │
+│ UAT SERVER 3: 10.0.2.12 (biddbeuat user)                   │
 │ (Same steps as Server 1)                                        │
 └─────────────────────────────────────────────────────────────────┘
 
@@ -864,7 +864,7 @@ Attachment: handler_trivy_report.txt
 
 | Purpose | Path | Contents |
 | ----- | ----- | ----- |
-| Handler Repository | `${WORKSPACE}/IncredMoney_handler/` | Handler API source code |
+| Handler Repository | `${WORKSPACE}/IncredMoney_handler/` | Handler source code |
 | Communications Submodule | `${WORKSPACE}/IncredMoney_handler/app.bidd.communications/` | Communications module |
 | Trivy Report | `${WORKSPACE}/handler_trivy_report.txt` | Security scan results |
 | Node.js Binary | `/home/ubuntu/.nvm/versions/node/v20.11.1/bin/node` | Node runtime |
@@ -875,7 +875,7 @@ Attachment: handler_trivy_report.txt
 
 | Purpose | Path | Contents |
 | ----- | ----- | ----- |
-| Handler Application | `/home/biddbeuat/IncredMoney_handler/` | Running API application |
+| Handler Application | `/home/biddbeuat/IncredMoney_handler/` | Running application |
 | Communications Submodule | `/home/biddbeuat/IncredMoney_handler/app.bidd.communications/` | Communications module |
 | Configuration Repository | `/home/biddbeuat/prodConf/` | Environment configs |
 | conf.json Source | `/home/biddbeuat/prodConf/biddEasy/uat/handler/conf.json` | Handler config source |
