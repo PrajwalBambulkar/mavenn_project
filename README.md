@@ -1,5 +1,5 @@
 # **BIDD UAT Pipeline Complete Documentation**
-
+https://docs.google.com/document/d/1-bAJlUfgethEJOCcxlf_Jyp4SVjsZm9DPRJjzXbXmv8/edit?usp=sharing
 ## **Quick Overview**
 
 This pipeline involves **3 servers**:	
