@@ -102,13 +102,7 @@ aws configure list
 # Should show access key and region
 ```
 
-**AWS Configuration**:
 
-```
-Region: ap-south-1
-IAM Permissions Required:
-- ec2:DescribeInstances (to fetch UAT server IP)
-```
 
 #### **5\. SSH Client**
 
