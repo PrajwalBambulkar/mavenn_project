@@ -1,4 +1,4 @@
-# **BIDD UAT Deployment Pipeline \- Server-Wise Complete Documentation**
+# **BIDD UAT Pipeline Complete Documentation**
 
 ## **Quick Overview**
 
