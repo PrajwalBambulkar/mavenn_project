@@ -236,11 +236,11 @@ git clone git@github.com:incredmoney/prodConf.git /home/ubuntu/prodConf
 * AWS CLI query using:  
   * EC2 tag: `Name=bidd-fe-uat`  
   * Instance state: `running`
-
+```shell
 aws ec2 describe-instances \\  
 \--filters Name=tag:Name,Values=bidd-fe-uat \\  
 Name=instance-state-name,Values=running
-
+```
 ### **Safety Check**
 
 * Pipeline **fails immediately** if:  
