@@ -10,6 +10,7 @@
 - Backend Handler Pipeline
 
 # **BIDD FE Pipeline Explanation**
+- To see complete script click on below link.
 https://docs.google.com/document/d/1-bAJlUfgethEJOCcxlf_Jyp4SVjsZm9DPRJjzXbXmv8/edit?usp=sharing
 ## **Quick Overview**
 
@@ -898,7 +899,8 @@ If Build FAILS:
 ```
 
 # **BIDD API Pipeline Explanation*
-
+- To see complete script click on below link.
+https://docs.google.com/document/d/1eZZhT5phwqmYiot0GEdvHqId_KV47eKvBblNITxCBN4/edit?usp=sharing
 ## **📋 Quick Overview**
 
 This pipeline deploys the **BIDD API (Backend)** to UAT environment with flexible deployment options.
@@ -1954,6 +1956,8 @@ Result:
 
 
 # **BIDD Handler Pipeline Explanation**
+
+- To see complete script click on below link.
 https://docs.google.com/document/d/1dRQuZyMVenlqYPUbzQ3bM9aQlCguZSpAU3mMi9xLt4o/edit?usp=sharing
 ## **📋 Quick Overview**
 
