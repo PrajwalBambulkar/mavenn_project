@@ -9,7 +9,7 @@
 
 - Backend Handler Pipeline
 
-# **BIDD FE Pipeline Complete Documentation**
+# **BIDD FE Pipeline Explanation**
 https://docs.google.com/document/d/1-bAJlUfgethEJOCcxlf_Jyp4SVjsZm9DPRJjzXbXmv8/edit?usp=sharing
 ## **Quick Overview**
 
@@ -897,7 +897,7 @@ If Build FAILS:
 └─ Remove report
 ```
 
-# **BIDD API UAT Deployment Pipeline \- Complete Documentation**
+# **BIDD API Pipeline Explanation*
 
 ## **📋 Quick Overview**
 
@@ -1953,7 +1953,7 @@ Result:
 ---
 
 
-# **BIDD Handler UAT Deployment Pipeline \- Complete Documentation**
+# **BIDD Handler Pipeline Explanation**
 
 ## **📋 Quick Overview**
 
