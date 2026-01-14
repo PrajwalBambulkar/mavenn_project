@@ -1954,7 +1954,7 @@ Result:
 
 
 # **BIDD Handler Pipeline Explanation**
-
+https://docs.google.com/document/d/1dRQuZyMVenlqYPUbzQ3bM9aQlCguZSpAU3mMi9xLt4o/edit?usp=sharing
 ## **📋 Quick Overview**
 
 This pipeline deploys the **BIDD Handler (Backend)** to UAT environment with flexible deployment options.
