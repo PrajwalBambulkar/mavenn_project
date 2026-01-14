@@ -1,3 +1,14 @@
+# BIDD Project – Jenkins Pipelines
+
+
+## The BIDD project uses three separate Jenkins pipelines to manage build and deployment for different components:
+
+- Frontend (FE) Pipeline
+
+- Backend API Pipeline
+
+- Backend Handler Pipeline
+
 # **BIDD UAT Pipeline Complete Documentation**
 https://docs.google.com/document/d/1-bAJlUfgethEJOCcxlf_Jyp4SVjsZm9DPRJjzXbXmv8/edit?usp=sharing
 ## **Quick Overview**
